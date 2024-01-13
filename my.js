@@ -167,8 +167,7 @@ function toggleSelection(tileId) {
         }
     }
 
-    // You can implement logic to adjust the page results accordingly here
-    console.log(num);
+
 }
 
 
@@ -405,4 +404,4 @@ const selectedItemShow = () => {
 
 }
 
-selectedItemShow()
+// selectedItemShow()
