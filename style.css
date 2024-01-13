@@ -7,6 +7,9 @@
      height: 160px;
      display: flex;
      gap: 12px;
+     max-width: 1024px;
+     background: red;
+     margin: 0 auto;
  }
 
  .item {
@@ -18,9 +21,9 @@
 
  }
 
- /* .selected {
+ .selected {
      display: hidden;
- } */
+ }
 
  .item_check {
      display: flex;
@@ -32,7 +35,7 @@
  }
 
  .item_check .selected {
-     /* display: none; */
+     display: none;
      visibility: hidden
  }
 
@@ -220,8 +223,16 @@
      content: " ";
  }
 
- .product_info {
+ /* .product_info {
      padding-left: 18px;
      display: flex;
-     align-items: center;
+     align-items: end;
+ } */
+
+ .your-item {
+     border-bottom: 1px solid #444444;
+ }
+
+ .to {
+     padding: 14px 0;
  }
